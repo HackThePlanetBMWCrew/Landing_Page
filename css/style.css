@@ -176,7 +176,7 @@ Services
 
 .service-item{
 	position: relative;
-	margin-top:20px;
+	margin-top:10px;
 }
 
 .service-item.text-right .service-text{
@@ -240,12 +240,15 @@ Services
 /**********************
 PORTFOLIO
 ***********************/
+header{
+	clear: both;
+}
 .centered-pills {
 	text-align: center;
 }
 .centered-pills ul.nav-pills {
 	display: inline-block;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 }
 .centered-pills li {
 	display: inline;
@@ -349,7 +352,7 @@ Team
 *********************************/
 .team-member{
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 0px;
 }
 .member-photo{
 	position: relative;
@@ -556,7 +559,7 @@ BLOGS
 SERVICES
 ********************************/
 .service-item{
-	margin-bottom: 70px;
+	margin-bottom: 0px;
 }
 
 footer{
