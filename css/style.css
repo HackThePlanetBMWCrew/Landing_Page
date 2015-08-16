@@ -348,10 +348,12 @@ figcaption span {
 	display: block;
 }
 
-.portfoilo #hp1{
-	margin-top: -20px;
+#table{
+	display: inline-block;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 /********************************
 Team
 *********************************/
