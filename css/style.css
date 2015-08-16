@@ -56,6 +56,13 @@ section.dark header p{
 	color: #fff;
 }
 
+.table{
+	display: inline-block;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /***********************
 Buttons
 ***********************/
@@ -348,12 +355,6 @@ figcaption span {
 	display: block;
 }
 
-#table{
-	display: inline-block;
-	align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
 /********************************
 Team
 *********************************/
