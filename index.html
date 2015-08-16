@@ -11,8 +11,10 @@
 	<!-- Load fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
-
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
 	<!--Load styles -->
+    <script type="text/javascript" src='js/script.js'></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
@@ -196,13 +198,21 @@
 		<nav class="centered-pills clearfix">
 		<h2 class="wow fadeInDown">Leaders</h2>
 			<ul class="nav nav-pills" >
-				<li><a href="javascript:void(0);" class="filter active" data-filter="all">Miles Ridden</a></li>
-				<li><a href="javascript:void(0);" class="filter" data-filter=".mockups">Time Ridden</a></li>
-				<li><a href="javascript:void(0);" class="filter" data-filter=".icons">Most Rides</a></li>
-				<li><a href="javascript:void(0);" class="filter" data-filter=".ui-kits">Turns Taken</a></li>
-				<li><a href="javascript:void(0);" class="filter" data-filter=".templates">G Forces</a></li>
+				<li id="actMiles"><a href="javascript:void(0);" class="filter active" data-filter="all">Miles Ridden</a></li>
+				<li id="actTime"><a href="javascript:void(0);" class="filter" data-filter=".mockups">Time Ridden</a></li>
+				<li id="actMost"><a href="javascript:void(0);" class="filter" data-filter=".icons">Most Rides</a></li>
+				<li id="actTurns"><a href="javascript:void(0);" class="filter" data-filter=".ui-kits">Turns Taken</a></li>
+				<li id="actG"><a href="javascript:void(0);" class="filter" data-filter=".templates">G Forces</a></li>
 			</ul>
 		</nav>
+		<table id="table">
+		<tr class="leaderboard">
+			<td id="rankNum" class="col0a">Rank</td>
+			<td id="nameOfPerson" class="col1a">Name</td>
+			<td id="nameOfBike" class="col2a">Bike</td>
+			<td id="Metric" class="col3a">Metric</td>
+		</tr>
+		</table>
 	</div>
 </section>
 <!-- End section -->
