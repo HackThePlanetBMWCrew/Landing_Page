@@ -92,10 +92,9 @@ NAVBAR
 .navbar-default{
 	background-color: #2b2e4a;
 	margin-bottom: 10px;
-	height: 100px;
+	height: 90px;
 	border-radius: 0;
 	border: none;
-	border-bottom: 1px solid #d2d2d2;
 	transition: all 0.250s;
 }
 
@@ -112,8 +111,7 @@ NAVBAR
 
 .navbar-default .navbar-nav > li > a:hover, 
 .navbar-default .navbar-nav > li > a:focus {
-	color: #903749;
-	border: 1px solid #fa5c58;
+	color: #d1d6ed;
 }
 
 .navbar-small{
