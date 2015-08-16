@@ -102,7 +102,7 @@ NAVBAR
 }
 
 .navbar-default .nav{
-	margin-top:29px;
+	margin-top:19px;
 	margin-bottom: 19px;
 }
 
@@ -171,7 +171,9 @@ NAVBAR
 }
 
 .slide span{
-	margin-bottom: 30px;
+	font-size: 25px;
+	color: #d1d6ed;
+	margin-bottom: 25px;
 }
 
 /********************
@@ -278,7 +280,7 @@ Services
 .portfolio-item {
 	position: relative;
 	
-	overflow: hidden;
+	overfloch: hidden;
 	padding: 0;
 	
 	text-align: center;
@@ -346,12 +348,16 @@ figcaption span {
 	display: block;
 }
 
+.portfoilo #hp1{
+	margin-top: -20px;
+}
+
 /********************************
 Team
 *********************************/
 .team-member{
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 0px;
 }
 .member-photo{
 	position: relative;
@@ -499,59 +505,6 @@ form{
 	box-shadow: none;
 }
 
-/******************************
-BLOGS
-*******************************/
-#blog{
-	background-color: #3f3f41;
-	background-image: url(../img/blog-section.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.blog-items .col-md-4{
-	margin-right: 0;
-	margin-left: 0;
-	padding-right: 0;
-	padding-left: 0;
-}
-
-.blog-item {
-	background:;
-}
-
-.blog-item .meta-data{
-	padding: 50px 50px 20px 50px;
-	background-color: #121215;
-	
-}
-
-.blog-item h3{
-	color: #fb5d59;
-	margin-bottom: 70px;
-	font-size: 20px;
-}
-
-.blog-item h3,
-.blog-item p,.blog-item a{
-	
-}
-
-.blog-item p{
-	color: #fff;
-	margin-bottom: 50px;
-}
-
-.blog-item a{
-	text-align: right;
-	width: 100%;
-	display: block;
-}
-
-.load-more{
-	padding-top:35px;
-	padding-bottom: 70px;
-}
 
 /*******************************
 SERVICES
