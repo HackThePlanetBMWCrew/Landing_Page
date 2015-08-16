@@ -2,7 +2,7 @@
 body{
 	font-size: 15px;
 	line-height: 1.4em;
-	color: black;
+	color: #black;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -15,7 +15,7 @@ h1, h2, h3{
 }
 
 h2{
-	font-size: 80px;
+	font-size: 35px;
 }
 
 h3{
@@ -23,13 +23,13 @@ h3{
 }
 
 a{
-	color: #fa5c58;
+	color: #d1d6ed;
 	text-decoration: none;
 }
 
 a:hover,
 a:focus{
-	color: #fa5c58;
+	color: #d1d6ed;
 	text-decoration: underline;
 }
 
@@ -178,7 +178,7 @@ Services
 
 .service-item{
 	position: relative;
-	margin-top:80px;
+	margin-top:20px;
 }
 
 .service-item.text-right .service-text{
